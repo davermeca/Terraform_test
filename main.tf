@@ -18,5 +18,5 @@ module "web_server_sg" {
   description = "Security group for web-server with HTTP ports open within VPC"
   vpc_id      = "vpc-0cd7c314c94dd8987"
 
-  ingress_cidr_blocks = ["192.168.20.0/24"]
+  ingress_cidr_blocks = ["192.168.30.0/24"]
 }
